@@ -6,6 +6,7 @@ function loadWeek(week) {
     if (xhr.readyState == 4 && xhr.status == 200) {
       // If the request is successful, insert the content into the 'weekContent' div
       document.getElementById("weekContent").innerHTML = xhr.responseText;
+      console.log(xhr.responseText);
     }
   };
 

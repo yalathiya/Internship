@@ -92,3 +92,64 @@ div.content {
 .topnav .icon {
   display: none;
 }
+/* Add this to make the navbar fixed at the top */
+.topnav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Set a higher z-index to ensure it appears above other elements */
+}
+
+/* Add margin-top to the content to prevent overlap with the fixed navbar */
+.container-content {
+  margin-top: 50px; /* Adjust the value based on your navbar height */
+}
+
+/* Optional: Add some styling to the fixed navbar for better visibility */
+.topnav a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Add this to make the navbar fixed at the top */
+.topnav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Set a higher z-index to ensure it appears above other elements */
+}
+
+/* Add margin-top to the content to prevent overlap with the fixed navbar */
+.container-content {
+  margin-top: 60px; /* Adjust the value based on your navbar height */
+}
+
+/* Adjust the margin-top of the sidebar to ensure it starts below the fixed navbar */
+.sidebar {
+  margin-top: 60px; /* Adjust the value based on your navbar height */
+}
+
+/* Optional: Add some styling to the fixed navbar for better visibility */
+.topnav a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.justified {
+  text-align: justify;
+}
