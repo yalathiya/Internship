@@ -20,7 +20,7 @@
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              <strong>Task 1</strong>
+              <strong>Authentication</strong>
             </button>
           </h2>
           <div
@@ -28,21 +28,18 @@
             class="accordion-collapse collapse show"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              veniam molestias autem molestiae. Amet eum error debitis aliquam.
-              Repellat placeat non mollitia magni voluptatem veniam dignissimos
-              culpa optio. Mollitia, tenetur!
+            <div class="accordion-body justified">
+              User has to provide valid credentials to access web api.
               <br />
               <br />
-              <a
+              <!-- <a
                 href="https://drive.google.com/file/d/1VgnzYmJX7rkNcUl3hvv2PaTcvWStJA2u/view?usp=sharing"
                 class="btn btn-success"
                 target="_blank"
                 >Documentation</a
-              >
+              > -->
               <a
-                href="https://github.com/RKITSoftware/Yash-Lathiya/tree/main/Demo/API%20Basic%20Demo/5_C%23_Advance/Final%20Demo/ExpenseTracker/ExpenseTracker"
+                href="https://github.com/RKITSoftware/Yash-Lathiya/blob/main/Demo/API%20Basic%20Demo/3_Web_Developement/3_Web_API/WebAPI/StudentAPI/Authentication/UserAuthentication.cs"
                 class="btn btn-success"
                 target="_blank"
                 >Source Code</a
@@ -60,7 +57,7 @@
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              <strong>Task 2</strong>
+              <strong>Authorization</strong>
             </button>
           </h2>
           <div
@@ -68,22 +65,20 @@
             class="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
-              molestiae, commodi temporibus nobis nesciunt, impedit nam
-              voluptatibus pariatur optio, tenetur consectetur quam
-              reprehenderit veniam. Nesciunt voluptates laudantium enim repellat
-              vel!
+            <div class="accordion-body justified">
+              Added role based authorization in web api, it means user can
+              access only that functionalities which are build for it, there can
+              be multiple roles in api ( eg. user, admin, super-admin)
               <br />
               <br />
-              <a
+              <!-- <a
                 href="https://drive.google.com/file/d/1VgnzYmJX7rkNcUl3hvv2PaTcvWStJA2u/view?usp=sharing"
                 class="btn btn-success"
                 target="_blank"
                 >Documentation</a
-              >
+              > -->
               <a
-                href="https://github.com/RKITSoftware/Yash-Lathiya/tree/main/Demo/API%20Basic%20Demo/5_C%23_Advance/Final%20Demo/ExpenseTracker/ExpenseTracker"
+                href="https://github.com/RKITSoftware/Yash-Lathiya/tree/main/Demo/API%20Basic%20Demo/3_Web_Developement/3_Web_API/WebAPI/StudentAPI/Authentication"
                 class="btn btn-success"
                 target="_blank"
                 >Source Code</a
@@ -101,7 +96,7 @@
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              <strong>Task 3</strong>
+              <strong>JWT Token</strong>
             </button>
           </h2>
           <div
@@ -109,21 +104,62 @@
             class="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
-              explicabo iusto impedit natus vero nisi animi ab culpa optio amet
-              sequi veritatis, eos iure porro, odit expedita nostrum accusamus
-              dolore?
+            <div class="accordion-body justified">
+              "JSON-Web-Token" is a token which stores authenticated user's
+              information with it's claims. I've generated jwt token as well as
+              validated it.
               <br />
               <br />
-              <a
+              <!-- <a
                 href="https://drive.google.com/file/d/1VgnzYmJX7rkNcUl3hvv2PaTcvWStJA2u/view?usp=sharing"
                 class="btn btn-success"
                 target="_blank"
                 >Documentation</a
-              >
+              > -->
               <a
-                href="https://github.com/RKITSoftware/Yash-Lathiya/tree/main/Demo/API%20Basic%20Demo/5_C%23_Advance/Final%20Demo/ExpenseTracker/ExpenseTracker"
+                href="https://github.com/RKITSoftware/Yash-Lathiya/tree/main/Demo/API%20Basic%20Demo/3_Web_Developement/3_Web_API/WebAPI/StudentAPI/JwtToken"
+                class="btn btn-success"
+                target="_blank"
+                >Source Code</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-success">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              <strong>Exception Handling</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body justified">
+              I learned how to deal with exceptions in .net
+              <ul>
+                <li>HttpResponseException</li>
+                <li>FilterException</li>
+                <li>HttpErrorException</li>
+                <li>CustomExceptionClass</li>
+                <li>Built-in-Exceptions</li>
+              </ul>
+              <!-- <a
+                href="https://drive.google.com/file/d/1VgnzYmJX7rkNcUl3hvv2PaTcvWStJA2u/view?usp=sharing"
+                class="btn btn-success"
+                target="_blank"
+                >Documentation</a
+              > -->
+              <a
+                href="https://github.com/RKITSoftware/Yash-Lathiya/blob/main/Demo/API%20Basic%20Demo/3_Web_Developement/3_Web_API/WebAPI/StudentAPI/Controllers/CLExceptionController.cs"
                 class="btn btn-success"
                 target="_blank"
                 >Source Code</a
